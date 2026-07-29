@@ -858,34 +858,6 @@ export default function App() {
     localStorage.setItem('opet_media_city_pins', JSON.stringify(pins));
   }, [pins]);
 
-  // Background Media Preloader for Instant Video & Visual Display
-  useEffect(() => {
-    const preloadMedia = () => {
-      DEFAULT_PINS.forEach((pin) => {
-        if (pin.imagePath) {
-          const img = new Image();
-          img.src = encodeURI(pin.imagePath);
-        }
-        if (pin.galleryImages) {
-          pin.galleryImages.forEach((url) => {
-            const img = new Image();
-            img.src = encodeURI(url);
-          });
-        }
-        if (pin.videoPlaylist && pin.videoPlaylist.length > 0) {
-          pin.videoPlaylist.forEach((vUrl) => {
-            const v = document.createElement('video');
-            v.preload = 'auto';
-            v.src = encodeURI(vUrl);
-          });
-        }
-      });
-    };
-
-    // Run preloader after initial render
-    const timer = setTimeout(preloadMedia, 500);
-    return () => clearTimeout(timer);
-  }, []);
 
   const videoRef = useRef<HTMLVideoElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -1442,7 +1414,7 @@ export default function App() {
                 key={currentVideoIdx}
                 src={encodeURI(activeModal.videoPlaylist[currentVideoIdx])} 
                 autoPlay 
-                preload="auto"
+                preload="metadata"
                 muted={isMuted} 
                 playsInline 
                 onTimeUpdate={(e) => handleVideoTimeUpdate(e, activeModal.videoPlaylist!.length)}
@@ -1454,7 +1426,7 @@ export default function App() {
               <video 
                 src={encodeURI(activeModal.videoPath)} 
                 autoPlay 
-                preload="auto"
+                preload="metadata"
                 loop 
                 muted={isMuted} 
                 playsInline 
