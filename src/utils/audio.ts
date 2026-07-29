@@ -26,9 +26,9 @@ class AmbientAudioEngine {
       this.init();
     }
     if (this.audioElement) {
-      this.audioElement.volume = this.isMuted ? 0 : this.normalVolume;
+      this.fadeToVolume(this.isMuted ? 0 : this.normalVolume, 600);
       this.audioElement.play().catch(err => {
-        console.warn('Autoplay prevented or interrupted:', err);
+        console.warn('Autoplay prevented or interrupted', err);
       });
     }
   }
