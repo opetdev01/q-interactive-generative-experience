@@ -858,6 +858,35 @@ export default function App() {
     localStorage.setItem('opet_media_city_pins', JSON.stringify(pins));
   }, [pins]);
 
+  // Background Media Preloader for Instant Video & Visual Display
+  useEffect(() => {
+    const preloadMedia = () => {
+      DEFAULT_PINS.forEach((pin) => {
+        if (pin.imagePath) {
+          const img = new Image();
+          img.src = encodeURI(pin.imagePath);
+        }
+        if (pin.galleryImages) {
+          pin.galleryImages.forEach((url) => {
+            const img = new Image();
+            img.src = encodeURI(url);
+          });
+        }
+        if (pin.videoPlaylist && pin.videoPlaylist.length > 0) {
+          pin.videoPlaylist.forEach((vUrl) => {
+            const v = document.createElement('video');
+            v.preload = 'auto';
+            v.src = encodeURI(vUrl);
+          });
+        }
+      });
+    };
+
+    // Run preloader after initial render
+    const timer = setTimeout(preloadMedia, 500);
+    return () => clearTimeout(timer);
+  }, []);
+
   const videoRef = useRef<HTMLVideoElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -1397,29 +1426,43 @@ export default function App() {
             {/* BLACK FADEOUT OVERLAY TRANSITION (0.5s) */}
             <div className={`video-fade-overlay ${isVideoFading ? 'fading' : ''}`} />
 
+            {/* INSTANT VISUAL UNDERLAY POSTER IMAGE (0ms DELAY VISUAL) */}
+            {activeModal.imagePath && (
+              <img 
+                src={encodeURI(activeModal.imagePath)} 
+                alt={activeModal.title} 
+                className="option3-hero-video"
+                style={{ zIndex: 0 }}
+              />
+            )}
+
             {/* FULLSCREEN VIDEO HERO PLAYER WITH PLAYLIST */}
             {activeModal.videoPlaylist && activeModal.videoPlaylist.length > 0 ? (
               <video 
                 key={currentVideoIdx}
                 src={encodeURI(activeModal.videoPlaylist[currentVideoIdx])} 
                 autoPlay 
+                preload="auto"
                 muted={isMuted} 
                 playsInline 
                 onTimeUpdate={(e) => handleVideoTimeUpdate(e, activeModal.videoPlaylist!.length)}
                 onEnded={() => handleNextVideo(activeModal.videoPlaylist!.length)}
                 className="option3-hero-video"
+                style={{ zIndex: 1 }}
               />
             ) : activeModal.videoPath ? (
               <video 
                 src={encodeURI(activeModal.videoPath)} 
                 autoPlay 
+                preload="auto"
                 loop 
                 muted={isMuted} 
                 playsInline 
                 className="option3-hero-video"
+                style={{ zIndex: 1 }}
               />
             ) : activeModal.imagePath ? (
-              <img src={encodeURI(activeModal.imagePath)} alt={activeModal.title} className="option3-hero-video" />
+              <img src={encodeURI(activeModal.imagePath)} alt={activeModal.title} className="option3-hero-video" style={{ zIndex: 1 }} />
             ) : null}
 
             {/* TOP HUD HEADER */}

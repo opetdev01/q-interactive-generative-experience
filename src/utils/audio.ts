@@ -13,7 +13,7 @@ class AmbientAudioEngine {
     this.isInitialized = true;
 
     try {
-      this.audioElement = new Audio('/experience/Flint%20-%20Experience%20Sonder.mp3');
+      this.audioElement = new Audio('/assets/bgm.wav');
       this.audioElement.loop = true;
       this.audioElement.volume = this.isMuted ? 0 : this.normalVolume;
     } catch (e) {
@@ -26,9 +26,9 @@ class AmbientAudioEngine {
       this.init();
     }
     if (this.audioElement) {
-      this.fadeToVolume(this.isMuted ? 0 : this.normalVolume, 600);
+      this.audioElement.volume = this.isMuted ? 0 : this.normalVolume;
       this.audioElement.play().catch(err => {
-        console.warn('Autoplay prevented or interrupted', err);
+        console.warn('Autoplay prevented or interrupted:', err);
       });
     }
   }
