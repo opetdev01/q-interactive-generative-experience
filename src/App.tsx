@@ -49,12 +49,12 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "02. MEDIA AND CREATION",
     "x": 47,
     "y": 42,
-    "videoPath": "/experience/02.MEDIA AND CREATION/NUT (New Maspero)/Animated/hf_20260509_162517_17f3736c-68a3-4c99-a8bd-6826277b1174.mp4",
+    "videoPath": "/experience/02-MEDIA-AND-CREATION/NUT-New-Maspero/Animated/hf_20260509_162517_17f3736c-68a3-4c99-a8bd-6826277b1174.mp4",
     "videoPlaylist": [
-      "/experience/02.MEDIA AND CREATION/NUT (New Maspero)/Animated/hf_20260509_162517_17f3736c-68a3-4c99-a8bd-6826277b1174.mp4",
-      "/experience/02.MEDIA AND CREATION/NUT (New Maspero)/Animated/hf_20260509_164337_817b623d-5f02-4227-8188-cc9d103deef9.mp4",
-      "/experience/02.MEDIA AND CREATION/NUT (New Maspero)/Animated/hf_20260509_165900_ece4c8f9-da4d-4d9f-b133-04dc62782172.mp4",
-      "/experience/02.MEDIA AND CREATION/NUT (New Maspero)/Animated/timelapse.mp4"
+      "/experience/02-MEDIA-AND-CREATION/NUT-New-Maspero/Animated/hf_20260509_162517_17f3736c-68a3-4c99-a8bd-6826277b1174.mp4",
+      "/experience/02-MEDIA-AND-CREATION/NUT-New-Maspero/Animated/hf_20260509_164337_817b623d-5f02-4227-8188-cc9d103deef9.mp4",
+      "/experience/02-MEDIA-AND-CREATION/NUT-New-Maspero/Animated/hf_20260509_165900_ece4c8f9-da4d-4d9f-b133-04dc62782172.mp4",
+      "/experience/02-MEDIA-AND-CREATION/NUT-New-Maspero/Animated/timelapse.mp4"
     ],
     "videoDetails": [
       {
@@ -74,11 +74,11 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Day-to-night time-lapse showcasing the architectural silhouette of the Maspero Media Complex."
       }
     ],
-    "imagePath": "/experience/02.MEDIA AND CREATION/NUT (New Maspero)/freepik__move-the-pyramids-to-the-right-and-make-them-far-b__3418.png",
+    "imagePath": "/experience/02-MEDIA-AND-CREATION/NUT-New-Maspero/freepik__move-the-pyramids-to-the-right-and-make-them-far-b__3418.png",
     "galleryImages": [
-      "/experience/02.MEDIA AND CREATION/NUT (New Maspero)/magnific__convert-to-be-daylight-shot-without-changing-anyth__38058.png",
-      "/experience/02.MEDIA AND CREATION/NUT (New Maspero)/magnific__artistic-macro-of-ornate-relief-panels-and-palm-si__16504.png",
-      "/experience/02.MEDIA AND CREATION/NUT (New Maspero)/freepik__move-the-pyramids-to-the-right-and-make-them-far-b__3418.png"
+      "/experience/02-MEDIA-AND-CREATION/NUT-New-Maspero/magnific__convert-to-be-daylight-shot-without-changing-anyth__38058.png",
+      "/experience/02-MEDIA-AND-CREATION/NUT-New-Maspero/magnific__artistic-macro-of-ornate-relief-panels-and-palm-si__16504.png",
+      "/experience/02-MEDIA-AND-CREATION/NUT-New-Maspero/freepik__move-the-pyramids-to-the-right-and-make-them-far-b__3418.png"
     ],
     "description": "High-density media production, broadcast centers, and digital creation labs.",
     "voiceOverText": "RISING ALONG THE CENTRAL CANAL, THE MASPERO MEDIA HUB SERVES AS THE MASTERPLAN'S FLAGSHIP BROADCAST NEXUS, HOUSING STATE-OF-THE-ART SOUNDSTAGES, LIVE CONTROL ROOMS, AND INTERNATIONAL TRANSMISSION SUITES.",
@@ -90,12 +90,12 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "02. MEDIA AND CREATION",
     "x": 52,
     "y": 28,
-    "videoPath": "/experience/02.MEDIA AND CREATION/studio back lots/Animated/hf_20260509_171654_c7065bb9-b1dc-451c-8a13-971d6134644a.mp4",
+    "videoPath": "/experience/02-MEDIA-AND-CREATION/studio-back-lots/Animated/hf_20260509_171654_c7065bb9-b1dc-451c-8a13-971d6134644a.mp4",
     "videoPlaylist": [
-      "/experience/02.MEDIA AND CREATION/studio back lots/Animated/hf_20260509_171654_c7065bb9-b1dc-451c-8a13-971d6134644a.mp4",
-      "/experience/02.MEDIA AND CREATION/studio back lots/Animated/hf_20260509_171936_0f84bc58-9e51-462e-b95d-c9eb97f8e78e.mp4",
-      "/experience/02.MEDIA AND CREATION/studio back lots/Animated/hf_20260509_172116_cbe29e24-2d80-4a0b-b539-5914d4bd6b8d.mp4",
-      "/experience/02.MEDIA AND CREATION/studio back lots/Animated/hf_20260509_172636_9570e606-0284-49d8-9e19-93b06ee9d9ae.mp4"
+      "/experience/02-MEDIA-AND-CREATION/studio-back-lots/Animated/hf_20260509_171654_c7065bb9-b1dc-451c-8a13-971d6134644a.mp4",
+      "/experience/02-MEDIA-AND-CREATION/studio-back-lots/Animated/hf_20260509_171936_0f84bc58-9e51-462e-b95d-c9eb97f8e78e.mp4",
+      "/experience/02-MEDIA-AND-CREATION/studio-back-lots/Animated/hf_20260509_172116_cbe29e24-2d80-4a0b-b539-5914d4bd6b8d.mp4",
+      "/experience/02-MEDIA-AND-CREATION/studio-back-lots/Animated/hf_20260509_172636_9570e606-0284-49d8-9e19-93b06ee9d9ae.mp4"
     ],
     "videoDetails": [
       {
@@ -115,11 +115,11 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "On-set DIT suites and instant footage review stations for directors and cinematographers."
       }
     ],
-    "imagePath": "/experience/02.MEDIA AND CREATION/studio back lots/magnific__backlot-city-set-ultrarealistic-cinematic-shot-of-__45535.png",
+    "imagePath": "/experience/02-MEDIA-AND-CREATION/studio-back-lots/magnific__backlot-city-set-ultrarealistic-cinematic-shot-of-__45535.png",
     "galleryImages": [
-      "/experience/02.MEDIA AND CREATION/studio back lots/magnific__backlot-city-set-ultrarealistic-cinematic-shot-of-__45535.png",
-      "/experience/02.MEDIA AND CREATION/studio back lots/magnific__desert-film-set-ultrarealistic-shot-of-an-outdoor-__45534.png",
-      "/experience/02.MEDIA AND CREATION/studio back lots/magnific__ai-postproduction-hub-ultrarealistic-cinematic-sho__45537.png"
+      "/experience/02-MEDIA-AND-CREATION/studio-back-lots/magnific__backlot-city-set-ultrarealistic-cinematic-shot-of-__45535.png",
+      "/experience/02-MEDIA-AND-CREATION/studio-back-lots/magnific__desert-film-set-ultrarealistic-shot-of-an-outdoor-__45534.png",
+      "/experience/02-MEDIA-AND-CREATION/studio-back-lots/magnific__ai-postproduction-hub-ultrarealistic-cinematic-sho__45537.png"
     ],
     "description": "Next-gen virtual production stages and soundstages equipped with real-time AI background rendering.",
     "voiceOverText": "EXPANDING ACROSS DEDICATED SOUNDSTAGES AND ADAPTABLE OUTDOOR SETS, THE STUDIO BACKLOTS PROVIDE NEXT-GENERATION PRODUCTION STAGES INTEGRATED WITH REAL-TIME VIRTUAL BACKGROUND RENDERING.",
@@ -131,12 +131,12 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "02. MEDIA AND CREATION",
     "x": 39,
     "y": 34,
-    "videoPath": "/experience/02.MEDIA AND CREATION/studios ai/Animated/hf_20260509_173505_b8410f83-1599-49fb-9a17-15a6c5b09e1d.mp4",
+    "videoPath": "/experience/02-MEDIA-AND-CREATION/studios-ai/Animated/hf_20260509_173505_b8410f83-1599-49fb-9a17-15a6c5b09e1d.mp4",
     "videoPlaylist": [
-      "/experience/02.MEDIA AND CREATION/studios ai/Animated/hf_20260509_173505_b8410f83-1599-49fb-9a17-15a6c5b09e1d.mp4",
-      "/experience/02.MEDIA AND CREATION/studios ai/Animated/hf_20260509_174129_07a2563a-35d8-4cfe-9c68-f8b7aa682327.mp4",
-      "/experience/02.MEDIA AND CREATION/studios ai/Animated/hf_20260509_174222_a174b3de-6059-441a-a1fe-c53752c5a6e0.mp4",
-      "/experience/02.MEDIA AND CREATION/studios ai/Animated/hf_20260509_174445_457ccbe5-bf5b-43e6-8f8b-0d247eeb569c.mp4"
+      "/experience/02-MEDIA-AND-CREATION/studios-ai/Animated/hf_20260509_173505_b8410f83-1599-49fb-9a17-15a6c5b09e1d.mp4",
+      "/experience/02-MEDIA-AND-CREATION/studios-ai/Animated/hf_20260509_174129_07a2563a-35d8-4cfe-9c68-f8b7aa682327.mp4",
+      "/experience/02-MEDIA-AND-CREATION/studios-ai/Animated/hf_20260509_174222_a174b3de-6059-441a-a1fe-c53752c5a6e0.mp4",
+      "/experience/02-MEDIA-AND-CREATION/studios-ai/Animated/hf_20260509_174445_457ccbe5-bf5b-43e6-8f8b-0d247eeb569c.mp4"
     ],
     "videoDetails": [
       {
@@ -156,11 +156,11 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Digital human creation workstations and real-time motion capture analysis suites."
       }
     ],
-    "imagePath": "/experience/02.MEDIA AND CREATION/studios ai/magnific__ultrarealistic-render-of-a-dark-virtual-production__36369.png",
+    "imagePath": "/experience/02-MEDIA-AND-CREATION/studios-ai/magnific__ultrarealistic-render-of-a-dark-virtual-production__36369.png",
     "galleryImages": [
-      "/experience/02.MEDIA AND CREATION/studios ai/magnific__ultrarealistic-render-of-a-dark-virtual-production__36369.png",
-      "/experience/02.MEDIA AND CREATION/studios ai/magnific__color-grading-and-liveedit-lounge-img2__16493.png",
-      "/experience/02.MEDIA AND CREATION/studios ai/magnific__ultrarealistic-close-lifestyle-shot-inside-an-ai-p__36368.png"
+      "/experience/02-MEDIA-AND-CREATION/studios-ai/magnific__ultrarealistic-render-of-a-dark-virtual-production__36369.png",
+      "/experience/02-MEDIA-AND-CREATION/studios-ai/magnific__color-grading-and-liveedit-lounge-img2__16493.png",
+      "/experience/02-MEDIA-AND-CREATION/studios-ai/magnific__ultrarealistic-close-lifestyle-shot-inside-an-ai-p__36368.png"
     ],
     "description": "AI-assisted content generation suites, sound design labs, and neural render farms.",
     "voiceOverText": "ENGINEERED FOR THE FUTURE OF DIGITAL STORYTELLING, THE A.I. CREATIVE STUDIOS OFFER HIGH-THROUGHPUT COMPUTING, NEURAL RENDER FARMS, AND IMMERSIVE AUDIO SYNTHESIS SUITES.",
@@ -172,12 +172,12 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "02. MEDIA AND CREATION",
     "x": 53,
     "y": 82,
-    "videoPath": "/experience/02.MEDIA AND CREATION/CreatiVe Commercial/Animated/hf_20260509_162408_b8c5ea0e-a124-4226-b176-4b7f37090f9c.mp4",
+    "videoPath": "/experience/02-MEDIA-AND-CREATION/CreatiVe-Commercial/Animated/hf_20260509_162408_b8c5ea0e-a124-4226-b176-4b7f37090f9c.mp4",
     "videoPlaylist": [
-      "/experience/02.MEDIA AND CREATION/CreatiVe Commercial/Animated/hf_20260509_162408_b8c5ea0e-a124-4226-b176-4b7f37090f9c.mp4",
-      "/experience/02.MEDIA AND CREATION/CreatiVe Commercial/Animated/hf_20260509_162518_6d9a01cc-eb14-418d-83fc-3cf64358b958.mp4",
-      "/experience/02.MEDIA AND CREATION/CreatiVe Commercial/Animated/hf_20260509_162705_5e11bb2c-c191-4b26-ba66-7c7cc4e543f5.mp4",
-      "/experience/02.MEDIA AND CREATION/CreatiVe Commercial/Animated/hf_20260509_163112_a5ce8252-08cd-4f80-a40a-f4c43664f28c.mp4"
+      "/experience/02-MEDIA-AND-CREATION/CreatiVe-Commercial/Animated/hf_20260509_162408_b8c5ea0e-a124-4226-b176-4b7f37090f9c.mp4",
+      "/experience/02-MEDIA-AND-CREATION/CreatiVe-Commercial/Animated/hf_20260509_162518_6d9a01cc-eb14-418d-83fc-3cf64358b958.mp4",
+      "/experience/02-MEDIA-AND-CREATION/CreatiVe-Commercial/Animated/hf_20260509_162705_5e11bb2c-c191-4b26-ba66-7c7cc4e543f5.mp4",
+      "/experience/02-MEDIA-AND-CREATION/CreatiVe-Commercial/Animated/hf_20260509_163112_a5ce8252-08cd-4f80-a40a-f4c43664f28c.mp4"
     ],
     "videoDetails": [
       {
@@ -197,11 +197,11 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Alfresco dining and coffee lounges designed for creative networking."
       }
     ],
-    "imagePath": "/experience/02.MEDIA AND CREATION/CreatiVe Commercial/magnific__podcast-creators-behindthescenes-in-the-glassfront__45497.png",
+    "imagePath": "/experience/02-MEDIA-AND-CREATION/CreatiVe-Commercial/magnific__podcast-creators-behindthescenes-in-the-glassfront__45497.png",
     "galleryImages": [
-      "/experience/02.MEDIA AND CREATION/CreatiVe Commercial/magnific__podcast-creators-behindthescenes-in-the-glassfront__45497.png",
-      "/experience/02.MEDIA AND CREATION/CreatiVe Commercial/magnific__glass-podcast-studio-session-intimate-host-and-gue__45502.png",
-      "/experience/02.MEDIA AND CREATION/CreatiVe Commercial/magnific__evening-strollers-couple-reviewing-footage-on-a-la__45503.png"
+      "/experience/02-MEDIA-AND-CREATION/CreatiVe-Commercial/magnific__podcast-creators-behindthescenes-in-the-glassfront__45497.png",
+      "/experience/02-MEDIA-AND-CREATION/CreatiVe-Commercial/magnific__glass-podcast-studio-session-intimate-host-and-gue__45502.png",
+      "/experience/02-MEDIA-AND-CREATION/CreatiVe-Commercial/magnific__evening-strollers-couple-reviewing-footage-on-a-la__45503.png"
     ],
     "description": "Mixed-use commercial spaces for creative agencies, media startups, and tech incubators.",
     "voiceOverText": "DESIGNED AS AN INTERACTIVE BUSINESS CONCOURSE, THE CREATIVE COMMERCIAL HUB BRINGS TOGETHER LEADING ADVERTISING AGENCIES, PODCAST GLASS STUDIOS, AND DIGITAL CONTENT INCUBATORS.",
@@ -213,12 +213,12 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "02. MEDIA AND CREATION",
     "x": 51,
     "y": 64,
-    "videoPath": "/experience/02.MEDIA AND CREATION/mixed use/Animated/hf_20260509_164500_150b50c2-de4f-42f8-8489-296c8968b168.mp4",
+    "videoPath": "/experience/02-MEDIA-AND-CREATION/mixed-use/Animated/hf_20260509_164500_150b50c2-de4f-42f8-8489-296c8968b168.mp4",
     "videoPlaylist": [
-      "/experience/02.MEDIA AND CREATION/mixed use/Animated/hf_20260509_164500_150b50c2-de4f-42f8-8489-296c8968b168.mp4",
-      "/experience/02.MEDIA AND CREATION/mixed use/Animated/hf_20260509_164636_e495c357-dfcb-44d9-a86c-1378454f4840.mp4",
-      "/experience/02.MEDIA AND CREATION/mixed use/Animated/hf_20260509_164746_86cfb357-1ecd-4e7a-8c14-808e8d6e18e0.mp4",
-      "/experience/02.MEDIA AND CREATION/mixed use/Animated/multi shot.mp4"
+      "/experience/02-MEDIA-AND-CREATION/mixed-use/Animated/hf_20260509_164500_150b50c2-de4f-42f8-8489-296c8968b168.mp4",
+      "/experience/02-MEDIA-AND-CREATION/mixed-use/Animated/hf_20260509_164636_e495c357-dfcb-44d9-a86c-1378454f4840.mp4",
+      "/experience/02-MEDIA-AND-CREATION/mixed-use/Animated/hf_20260509_164746_86cfb357-1ecd-4e7a-8c14-808e8d6e18e0.mp4",
+      "/experience/02-MEDIA-AND-CREATION/mixed-use/Animated/multi shot.mp4"
     ],
     "videoDetails": [
       {
@@ -238,10 +238,10 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Panoramic camera sweep over the mixed-use architectural precinct."
       }
     ],
-    "imagePath": "/experience/02.MEDIA AND CREATION/mixed use/magnific__ultrarealistic-lifestyle-render-of-a-futuristic-re__25971.png",
+    "imagePath": "/experience/02-MEDIA-AND-CREATION/mixed-use/magnific__ultrarealistic-lifestyle-render-of-a-futuristic-re__25971.png",
     "galleryImages": [
-      "/experience/02.MEDIA AND CREATION/mixed use/magnific__ultrarealistic-lifestyle-render-of-a-futuristic-re__25971.png",
-      "/experience/02.MEDIA AND CREATION/mixed use/magnific__remove-the-futuristic-car__27841.png"
+      "/experience/02-MEDIA-AND-CREATION/mixed-use/magnific__ultrarealistic-lifestyle-render-of-a-futuristic-re__25971.png",
+      "/experience/02-MEDIA-AND-CREATION/mixed-use/magnific__remove-the-futuristic-car__27841.png"
     ],
     "description": "Vibrant urban plaza blending retail, dining, and open-air media screens.",
     "voiceOverText": "ANCHORING THE CREATIVE DISTRICT'S CIVIC LIFE, THE MIXED-USE MEDIA PLAZA COMBINES PEDESTRIAN PROMENADES, OUTDOOR CINEMA SCREENS, AND VIBRANT ALFRESCO DINING HOUSES.",
@@ -253,12 +253,12 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "02. MEDIA AND CREATION",
     "x": 21,
     "y": 28,
-    "videoPath": "/experience/02.MEDIA AND CREATION/theme Park/Animated/hf_20260509_171106_78783c04-771c-43d9-af04-9b7ab3f391e6.mp4",
+    "videoPath": "/experience/02-MEDIA-AND-CREATION/theme-Park/Animated/hf_20260509_171106_78783c04-771c-43d9-af04-9b7ab3f391e6.mp4",
     "videoPlaylist": [
-      "/experience/02.MEDIA AND CREATION/theme Park/Animated/hf_20260509_171106_78783c04-771c-43d9-af04-9b7ab3f391e6.mp4",
-      "/experience/02.MEDIA AND CREATION/theme Park/Animated/hf_20260509_172919_7cb3d3f9-a5db-48d1-9da2-961dcb1304ea.mp4",
-      "/experience/02.MEDIA AND CREATION/theme Park/Animated/hf_20260509_174403_3a06b9fc-2725-4600-91bd-f89a6f5880ae.mp4",
-      "/experience/02.MEDIA AND CREATION/theme Park/Animated/hf_20260509_174925_ae5cd234-e77c-45b3-9663-d1b3021df808.mp4"
+      "/experience/02-MEDIA-AND-CREATION/theme-Park/Animated/hf_20260509_171106_78783c04-771c-43d9-af04-9b7ab3f391e6.mp4",
+      "/experience/02-MEDIA-AND-CREATION/theme-Park/Animated/hf_20260509_172919_7cb3d3f9-a5db-48d1-9da2-961dcb1304ea.mp4",
+      "/experience/02-MEDIA-AND-CREATION/theme-Park/Animated/hf_20260509_174403_3a06b9fc-2725-4600-91bd-f89a6f5880ae.mp4",
+      "/experience/02-MEDIA-AND-CREATION/theme-Park/Animated/hf_20260509_174925_ae5cd234-e77c-45b3-9663-d1b3021df808.mp4"
     ],
     "videoDetails": [
       {
@@ -278,11 +278,11 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Green open spaces integrated with digital art installations."
       }
     ],
-    "imagePath": "/experience/02.MEDIA AND CREATION/theme Park/magnific__goldenhour-couple-stroll-along-illuminated-waterfr__45512.png",
+    "imagePath": "/experience/02-MEDIA-AND-CREATION/theme-Park/magnific__goldenhour-couple-stroll-along-illuminated-waterfr__45512.png",
     "galleryImages": [
-      "/experience/02.MEDIA AND CREATION/theme Park/magnific__goldenhour-couple-stroll-along-illuminated-waterfr__45512.png",
-      "/experience/02.MEDIA AND CREATION/theme Park/magnific__img1-evening-waterfront-couples-dinner-on-a-lowlev__45507.png",
-      "/experience/02.MEDIA AND CREATION/theme Park/magnific__img1-family-picnic-and-playful-children-on-the-lag__45505.png"
+      "/experience/02-MEDIA-AND-CREATION/theme-Park/magnific__goldenhour-couple-stroll-along-illuminated-waterfr__45512.png",
+      "/experience/02-MEDIA-AND-CREATION/theme-Park/magnific__img1-evening-waterfront-couples-dinner-on-a-lowlev__45507.png",
+      "/experience/02-MEDIA-AND-CREATION/theme-Park/magnific__img1-family-picnic-and-playful-children-on-the-lag__45505.png"
     ],
     "description": "Immersive entertainment district featuring interactive VR experiences and media rides.",
     "voiceOverText": "A REVOLUTIONARY ENTERTAINMENT DESTINATION, THE MEDIA THEME PARK IMMERSES VISITORS IN INTERACTIVE VIRTUAL REALITY ATTRACTIONS, LASER FOUNTAIN SHOWS, AND MEDIA SCULPTURE GARDENS.",
@@ -294,11 +294,11 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "03. INFLUENCE AND TOURISM",
     "x": 36,
     "y": 49,
-    "videoPath": "/experience/03.INFLUENCE AND TOURISIM/The Beacon/Animated/hf_20260509_105704_42ca4d0d-004e-4a4b-8ed1-1de97b771f75.mp4",
+    "videoPath": "/experience/03-INFLUENCE-AND-TOURISIM/The-Beacon/Animated/hf_20260509_105704_42ca4d0d-004e-4a4b-8ed1-1de97b771f75.mp4",
     "videoPlaylist": [
-      "/experience/03.INFLUENCE AND TOURISIM/The Beacon/Animated/hf_20260509_105704_42ca4d0d-004e-4a4b-8ed1-1de97b771f75.mp4",
-      "/experience/03.INFLUENCE AND TOURISIM/The Beacon/Animated/hf_20260509_115241_0dfd9148-bb5c-480c-82cf-1debad67af83.mp4",
-      "/experience/03.INFLUENCE AND TOURISIM/The Beacon/Animated/hf_20260509_115617_b44dc7ce-6840-4d70-9dfb-4ed288daf724.mp4"
+      "/experience/03-INFLUENCE-AND-TOURISIM/The-Beacon/Animated/hf_20260509_105704_42ca4d0d-004e-4a4b-8ed1-1de97b771f75.mp4",
+      "/experience/03-INFLUENCE-AND-TOURISIM/The-Beacon/Animated/hf_20260509_115241_0dfd9148-bb5c-480c-82cf-1debad67af83.mp4",
+      "/experience/03-INFLUENCE-AND-TOURISIM/The-Beacon/Animated/hf_20260509_115617_b44dc7ce-6840-4d70-9dfb-4ed288daf724.mp4"
     ],
     "videoDetails": [
       {
@@ -314,10 +314,10 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Nighttime architectural lighting show visible across the entire Giza masterplan."
       }
     ],
-    "imagePath": "/experience/03.INFLUENCE AND TOURISIM/The Beacon/magnific__style-raw-ar-169-v-61-q-2ultrarealistic-cinematic-__95421.png",
+    "imagePath": "/experience/03-INFLUENCE-AND-TOURISIM/The-Beacon/magnific__style-raw-ar-169-v-61-q-2ultrarealistic-cinematic-__95421.png",
     "galleryImages": [
-      "/experience/03.INFLUENCE AND TOURISIM/The Beacon/magnific__style-raw-ar-169-v-61-q-2ultrarealistic-cinematic-__95421.png",
-      "/experience/03.INFLUENCE AND TOURISIM/The Beacon/magnific__add-real-local-egyptian-people-to-the-scene-with-d__98421.png"
+      "/experience/03-INFLUENCE-AND-TOURISIM/The-Beacon/magnific__style-raw-ar-169-v-61-q-2ultrarealistic-cinematic-__95421.png",
+      "/experience/03-INFLUENCE-AND-TOURISIM/The-Beacon/magnific__add-real-local-egyptian-people-to-the-scene-with-d__98421.png"
     ],
     "description": "Architectural landmark tower and public observatory overlooking Giza Media City.",
     "voiceOverText": "STAND-OUT ARCHITECTURE OVERLOOKING THE ANCIENT PYRAMIDS, THE BEACON TOWER FEATURES A THREE-HUNDRED-SIXTY-DEGREE GLASS OBSERVATION DECK AND NIGHTTIME ARCHITECTURAL LIGHT SHOWS.",
@@ -329,12 +329,12 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "03. INFLUENCE AND TOURISM",
     "x": 25,
     "y": 36,
-    "videoPath": "/experience/03.INFLUENCE AND TOURISIM/The lookout/Animated/hf_20260509_163131_f4c0a9f6-3584-4fc0-b909-653839c80941.mp4",
+    "videoPath": "/experience/03-INFLUENCE-AND-TOURISIM/The-lookout/Animated/hf_20260509_163131_f4c0a9f6-3584-4fc0-b909-653839c80941.mp4",
     "videoPlaylist": [
-      "/experience/03.INFLUENCE AND TOURISIM/The lookout/Animated/hf_20260509_163131_f4c0a9f6-3584-4fc0-b909-653839c80941.mp4",
-      "/experience/03.INFLUENCE AND TOURISIM/The lookout/Animated/hf_20260509_164145_5780db57-e7fe-42a1-ab8a-77a7db786e46.mp4",
-      "/experience/03.INFLUENCE AND TOURISIM/The lookout/Animated/hf_20260509_164919_1f69b15a-b4f6-432a-a15c-a35b45b9be86.mp4",
-      "/experience/03.INFLUENCE AND TOURISIM/The lookout/Animated/hf_20260509_165647_96ab64e9-5445-44ca-a52d-2d6a8ec3e342 (1).mp4"
+      "/experience/03-INFLUENCE-AND-TOURISIM/The-lookout/Animated/hf_20260509_163131_f4c0a9f6-3584-4fc0-b909-653839c80941.mp4",
+      "/experience/03-INFLUENCE-AND-TOURISIM/The-lookout/Animated/hf_20260509_164145_5780db57-e7fe-42a1-ab8a-77a7db786e46.mp4",
+      "/experience/03-INFLUENCE-AND-TOURISIM/The-lookout/Animated/hf_20260509_164919_1f69b15a-b4f6-432a-a15c-a35b45b9be86.mp4",
+      "/experience/03-INFLUENCE-AND-TOURISIM/The-lookout/Animated/hf_20260509_165647_96ab64e9-5445-44ca-a52d-2d6a8ec3e342 (1).mp4"
     ],
     "videoDetails": [
       {
@@ -354,10 +354,10 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Ascending vertical camera shot revealing the scale of the lookout plaza."
       }
     ],
-    "imagePath": "/experience/03.INFLUENCE AND TOURISIM/The lookout/ChatGPT Image May 9, 2026, 05_48_31 PM.png",
+    "imagePath": "/experience/03-INFLUENCE-AND-TOURISIM/The-lookout/ChatGPT Image May 9, 2026, 05_48_31 PM.png",
     "galleryImages": [
-      "/experience/03.INFLUENCE AND TOURISIM/The lookout/Firefly_Gemini Flash_Ultra-realistic cinematic rooftop terrace at The Lookout, overlooking the desert hori 760309.png",
-      "/experience/03.INFLUENCE AND TOURISIM/The lookout/Firefly_Ultra-realistic cinematic shot at The Lookout showing a monumental rectangular limest 53603.png"
+      "/experience/03-INFLUENCE-AND-TOURISIM/The-lookout/Firefly_Gemini Flash_Ultra-realistic cinematic rooftop terrace at The Lookout, overlooking the desert hori 760309.png",
+      "/experience/03-INFLUENCE-AND-TOURISIM/The-lookout/Firefly_Ultra-realistic cinematic shot at The Lookout showing a monumental rectangular limest 53603.png"
     ],
     "description": "Panoramic elevated vantage point offering sweeping views of the Nile and Giza pyramids.",
     "voiceOverText": "PERCHED AT AN ELEVATED CLIFFSIDE VANTAGE POINT, THE LOOKOUT OBSERVATORY OFFERS SUNSET LOUNGES, HISTORICAL EXHIBITION GALLERIES, AND SWEEPING VIEWS OF THE GIZA PLATEAU.",
@@ -369,10 +369,10 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "03. INFLUENCE AND TOURISM",
     "x": 19,
     "y": 54,
-    "videoPath": "/experience/03.INFLUENCE AND TOURISIM/Cultular Park xperience/Animated/hf_20260508_164049_1ac46df4-2832-472e-9cf4-9a9974377cb5.mp4",
+    "videoPath": "/experience/03-INFLUENCE-AND-TOURISIM/Cultular-Park-xperience/Animated/hf_20260508_164049_1ac46df4-2832-472e-9cf4-9a9974377cb5.mp4",
     "videoPlaylist": [
-      "/experience/03.INFLUENCE AND TOURISIM/Cultular Park xperience/Animated/hf_20260508_164049_1ac46df4-2832-472e-9cf4-9a9974377cb5.mp4",
-      "/experience/03.INFLUENCE AND TOURISIM/Cultular Park xperience/Animated/magnific_smooth-lateral-tracking-shot-camera-gliding-sidewa_kling_1080p_16-9_24fps_18067.mp4"
+      "/experience/03-INFLUENCE-AND-TOURISIM/Cultular-Park-xperience/Animated/hf_20260508_164049_1ac46df4-2832-472e-9cf4-9a9974377cb5.mp4",
+      "/experience/03-INFLUENCE-AND-TOURISIM/Cultular-Park-xperience/Animated/magnific_smooth-lateral-tracking-shot-camera-gliding-sidewa_kling_1080p_16-9_24fps_18067.mp4"
     ],
     "videoDetails": [
       {
@@ -384,10 +384,10 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Interactive art garden featuring projection-mapped sculptures."
       }
     ],
-    "imagePath": "/experience/03.INFLUENCE AND TOURISIM/Cultular Park xperience/hf_20260507_101141_8159609f-045c-442b-826e-c2a029084065.png",
+    "imagePath": "/experience/03-INFLUENCE-AND-TOURISIM/Cultular-Park-xperience/hf_20260507_101141_8159609f-045c-442b-826e-c2a029084065.png",
     "galleryImages": [
-      "/experience/03.INFLUENCE AND TOURISIM/Cultular Park xperience/hf_20260507_101141_8159609f-045c-442b-826e-c2a029084065.png",
-      "/experience/03.INFLUENCE AND TOURISIM/Cultular Park xperience/hf_20260507_102218_75555c0b-f70b-4d22-91cf-e9211bb144a9.png"
+      "/experience/03-INFLUENCE-AND-TOURISIM/Cultular-Park-xperience/hf_20260507_101141_8159609f-045c-442b-826e-c2a029084065.png",
+      "/experience/03-INFLUENCE-AND-TOURISIM/Cultular-Park-xperience/hf_20260507_102218_75555c0b-f70b-4d22-91cf-e9211bb144a9.png"
     ],
     "description": "Landscaped public park with open-air amphitheatres and digital sculpture gardens.",
     "voiceOverText": "INTEGRATING NATURE WITH SPATIAL MEDIA ART, THE CULTURAL PARK FEATURES NATURAL STONE AMPHITHEATRES FOR LIVE PERFORMANCES AND PROJECTION-MAPPED SCULPTURE GARDENS.",
@@ -399,11 +399,11 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "03. INFLUENCE AND TOURISM",
     "x": 29,
     "y": 64,
-    "videoPath": "/experience/03.INFLUENCE AND TOURISIM/Cultular Village/Animated/hf_20260508_160817_5b2d2ebf-d421-4c4a-9464-7f91f62fbddc.mp4",
+    "videoPath": "/experience/03-INFLUENCE-AND-TOURISIM/Cultular-Village/Animated/hf_20260508_160817_5b2d2ebf-d421-4c4a-9464-7f91f62fbddc.mp4",
     "videoPlaylist": [
-      "/experience/03.INFLUENCE AND TOURISIM/Cultular Village/Animated/hf_20260508_160817_5b2d2ebf-d421-4c4a-9464-7f91f62fbddc.mp4",
-      "/experience/03.INFLUENCE AND TOURISIM/Cultular Village/Animated/hf_20260508_162438_2eb3bcc3-7639-4dfd-b58b-0c11b53f63ef.mp4",
-      "/experience/03.INFLUENCE AND TOURISIM/Cultular Village/Animated/hf_20260508_162958_fa2a3fc5-ead4-412c-b258-5d4bed229bc9.mp4"
+      "/experience/03-INFLUENCE-AND-TOURISIM/Cultular-Village/Animated/hf_20260508_160817_5b2d2ebf-d421-4c4a-9464-7f91f62fbddc.mp4",
+      "/experience/03-INFLUENCE-AND-TOURISIM/Cultular-Village/Animated/hf_20260508_162438_2eb3bcc3-7639-4dfd-b58b-0c11b53f63ef.mp4",
+      "/experience/03-INFLUENCE-AND-TOURISIM/Cultular-Village/Animated/hf_20260508_162958_fa2a3fc5-ead4-412c-b258-5d4bed229bc9.mp4"
     ],
     "videoDetails": [
       {
@@ -419,10 +419,10 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Traditional limestone arcades and shaded outdoor artisan pavilions."
       }
     ],
-    "imagePath": "/experience/03.INFLUENCE AND TOURISIM/Cultular Village/magnific__photorealistic-cinematic-still-frame-shot-on-arri-__90702.png",
+    "imagePath": "/experience/03-INFLUENCE-AND-TOURISIM/Cultular-Village/magnific__photorealistic-cinematic-still-frame-shot-on-arri-__90702.png",
     "galleryImages": [
-      "/experience/03.INFLUENCE AND TOURISIM/Cultular Village/magnific__photorealistic-cinematic-still-frame-shot-on-arri-__90702.png",
-      "/experience/03.INFLUENCE AND TOURISIM/Cultular Village/ChatGPT Image May 8, 2026, 07_23_19 PM (2).png"
+      "/experience/03-INFLUENCE-AND-TOURISIM/Cultular-Village/magnific__photorealistic-cinematic-still-frame-shot-on-arri-__90702.png",
+      "/experience/03-INFLUENCE-AND-TOURISIM/Cultular-Village/ChatGPT Image May 8, 2026, 07_23_19 PM (2).png"
     ],
     "description": "Heritage hub showcasing Egyptian crafts, traditional arts, and media exhibitions.",
     "voiceOverText": "CELEBRATING EGYPTIAN HERITAGE AND CRAFTSMANSHIP, THE CULTURAL VILLAGE BRINGS TRADITIONAL ARTISAN WORKSHOPS, CRAFT PAVILIONS, AND MEDIA EXHIBITION HALLS TO LIFE.",
@@ -434,9 +434,9 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "03. INFLUENCE AND TOURISM",
     "x": 66,
     "y": 83,
-    "videoPath": "/experience/03.INFLUENCE AND TOURISIM/Luxury Hotel/Animated/hf_20260509_174603_e9b865c2-096f-4333-85ee-5626ec481b38.mp4",
+    "videoPath": "/experience/03-INFLUENCE-AND-TOURISIM/Luxury-Hotel/Animated/hf_20260509_174603_e9b865c2-096f-4333-85ee-5626ec481b38.mp4",
     "videoPlaylist": [
-      "/experience/03.INFLUENCE AND TOURISIM/Luxury Hotel/Animated/hf_20260509_174603_e9b865c2-096f-4333-85ee-5626ec481b38.mp4"
+      "/experience/03-INFLUENCE-AND-TOURISIM/Luxury-Hotel/Animated/hf_20260509_174603_e9b865c2-096f-4333-85ee-5626ec481b38.mp4"
     ],
     "videoDetails": [
       {
@@ -444,9 +444,9 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "5-star boutique resort tower offering VIP suites and executive conference halls."
       }
     ],
-    "imagePath": "/experience/03.INFLUENCE AND TOURISIM/Luxury Hotel/Firefly_Gemini Flash_Use the provided masterplan render as the fixed base. Create a cinematic semi-aerial  856347 (1).png",
+    "imagePath": "/experience/03-INFLUENCE-AND-TOURISIM/Luxury-Hotel/Firefly_Gemini Flash_Use the provided masterplan render as the fixed base. Create a cinematic semi-aerial  856347 (1).png",
     "galleryImages": [
-      "/experience/03.INFLUENCE AND TOURISIM/Luxury Hotel/Firefly_Gemini Flash_Use the provided masterplan render as the fixed base. Create a cinematic semi-aerial  856347 (1).png"
+      "/experience/03-INFLUENCE-AND-TOURISIM/Luxury-Hotel/Firefly_Gemini Flash_Use the provided masterplan render as the fixed base. Create a cinematic semi-aerial  856347 (1).png"
     ],
     "description": "5-star boutique hospitality tower catering to international media executives and VIP guests.",
     "voiceOverText": "A FIVE-STAR RESORT TOWER CATERING TO GLOBAL MEDIA EXECUTIVES, LUXURY HOSPITALITY OFFERS EXCLUSIVE VIP SUITES, EXECUTIVE CONFERENCE SPAS, AND PANORAMIC LAGOON VIEWS.",
@@ -458,10 +458,10 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "03. INFLUENCE AND TOURISM",
     "x": 44,
     "y": 73,
-    "videoPath": "/experience/03.INFLUENCE AND TOURISIM/Resort community/Animated/hf_20260509_181249_faacee63-22d2-482a-a109-776f97e89454.mp4",
+    "videoPath": "/experience/03-INFLUENCE-AND-TOURISIM/Resort-community/Animated/hf_20260509_181249_faacee63-22d2-482a-a109-776f97e89454.mp4",
     "videoPlaylist": [
-      "/experience/03.INFLUENCE AND TOURISIM/Resort community/Animated/hf_20260509_181249_faacee63-22d2-482a-a109-776f97e89454.mp4",
-      "/experience/03.INFLUENCE AND TOURISIM/Resort community/Animated/hf_20260509_182915_5adfd466-05a9-4b84-a13c-ad7ed66e3a46.mp4"
+      "/experience/03-INFLUENCE-AND-TOURISIM/Resort-community/Animated/hf_20260509_181249_faacee63-22d2-482a-a109-776f97e89454.mp4",
+      "/experience/03-INFLUENCE-AND-TOURISIM/Resort-community/Animated/hf_20260509_182915_5adfd466-05a9-4b84-a13c-ad7ed66e3a46.mp4"
     ],
     "videoDetails": [
       {
@@ -473,10 +473,10 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Aerial flyover capturing the full scale of the luxury resort enclave."
       }
     ],
-    "imagePath": "/experience/03.INFLUENCE AND TOURISIM/Resort community/magnific_cinematic-photorealistic-_2940447843.png",
+    "imagePath": "/experience/03-INFLUENCE-AND-TOURISIM/Resort-community/magnific_cinematic-photorealistic-_2940447843.png",
     "galleryImages": [
-      "/experience/03.INFLUENCE AND TOURISIM/Resort community/magnific_cinematic-photorealistic-_2940447843.png",
-      "/experience/03.INFLUENCE AND TOURISIM/Resort community/Firefly_Gemini Flash_Ultra-realistic cinematic aerial shot of a luxury resort district integrated into the 252359.png"
+      "/experience/03-INFLUENCE-AND-TOURISIM/Resort-community/magnific_cinematic-photorealistic-_2940447843.png",
+      "/experience/03-INFLUENCE-AND-TOURISIM/Resort-community/Firefly_Gemini Flash_Ultra-realistic cinematic aerial shot of a luxury resort district integrated into the 252359.png"
     ],
     "description": "Waterfront luxury resort with private lagoons and exclusive wellness amenities.",
     "voiceOverText": "FRAMED BY PRIVATE WATERFRONT LAGOONS, THE RESORT COMMUNITY FEATURES EXCLUSIVE BOUTIQUE VILLAS, INTEGRATED BOAT DOCKS, AND SERENE WELLNESS AMENITIES.",
@@ -489,11 +489,11 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "04. RESIDENTIAL AND LIVING",
     "x": 78,
     "y": 58,
-    "videoPath": "/experience/04.RESIDENTIAL AND LIVING/Golf Course/Animated/magnific_camera-orbit-around-the-g_2948764542.mp4",
+    "videoPath": "/experience/04-RESIDENTIAL-AND-LIVING/Golf-Course/Animated/magnific_camera-orbit-around-the-g_2948764542.mp4",
     "videoPlaylist": [
-      "/experience/04.RESIDENTIAL AND LIVING/Golf Course/Animated/magnific_camera-orbit-around-the-g_2948764542.mp4",
-      "/experience/04.RESIDENTIAL AND LIVING/Golf Course/Animated/magnific_create-a-video_2948714197.mp4",
-      "/experience/04.RESIDENTIAL AND LIVING/Golf Course/Animated/magnific_create-a-video_2948749691.mp4"
+      "/experience/04-RESIDENTIAL-AND-LIVING/Golf-Course/Animated/magnific_camera-orbit-around-the-g_2948764542.mp4",
+      "/experience/04-RESIDENTIAL-AND-LIVING/Golf-Course/Animated/magnific_create-a-video_2948714197.mp4",
+      "/experience/04-RESIDENTIAL-AND-LIVING/Golf-Course/Animated/magnific_create-a-video_2948749691.mp4"
     ],
     "videoDetails": [
       {
@@ -509,10 +509,10 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Sweeping aerial flyover across the fairways toward the horizon."
       }
     ],
-    "imagePath": "/experience/04.RESIDENTIAL AND LIVING/Golf Course/magnific_keep-the-image-100-the-sa_2948471881.jpeg",
+    "imagePath": "/experience/04-RESIDENTIAL-AND-LIVING/Golf-Course/magnific_keep-the-image-100-the-sa_2948471881.jpeg",
     "galleryImages": [
-      "/experience/04.RESIDENTIAL AND LIVING/Golf Course/magnific_keep-the-image-100-the-sa_2948471881.jpeg",
-      "/experience/04.RESIDENTIAL AND LIVING/Golf Course/magnific_keep-the-image-100-the-sa_2948476115.jpeg"
+      "/experience/04-RESIDENTIAL-AND-LIVING/Golf-Course/magnific_keep-the-image-100-the-sa_2948471881.jpeg",
+      "/experience/04-RESIDENTIAL-AND-LIVING/Golf-Course/magnific_keep-the-image-100-the-sa_2948476115.jpeg"
     ],
     "description": "Exclusive resort living, 18-hole championship golf course, and private luxury villas.",
     "voiceOverText": "FRAMED BY LUSH FAIRWAYS AND PRIVATE ESTATE GROUNDS, THE LUXURY GOLF COMMUNITY OFFERS RESORT-STYLE LIVING ANCHORED BY AN EIGHTEEN-HOLE CHAMPIONSHIP COURSE.",
@@ -524,10 +524,10 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "04. RESIDENTIAL AND LIVING",
     "x": 78,
     "y": 35,
-    "videoPath": "/experience/04.RESIDENTIAL AND LIVING/Low-Density Luxury Community/Animated/hf_20260509_143914_63e0a234-0a5f-4f68-942a-d259fbf0230a.mp4",
+    "videoPath": "/experience/04-RESIDENTIAL-AND-LIVING/Low-Density-Luxury-Community/Animated/hf_20260509_143914_63e0a234-0a5f-4f68-942a-d259fbf0230a.mp4",
     "videoPlaylist": [
-      "/experience/04.RESIDENTIAL AND LIVING/Low-Density Luxury Community/Animated/hf_20260509_143914_63e0a234-0a5f-4f68-942a-d259fbf0230a.mp4",
-      "/experience/04.RESIDENTIAL AND LIVING/Low-Density Luxury Community/Animated/hf_20260509_150116_50717ec6-526c-4616-a7a5-bd8f9572833b.mp4"
+      "/experience/04-RESIDENTIAL-AND-LIVING/Low-Density-Luxury-Community/Animated/hf_20260509_143914_63e0a234-0a5f-4f68-942a-d259fbf0230a.mp4",
+      "/experience/04-RESIDENTIAL-AND-LIVING/Low-Density-Luxury-Community/Animated/hf_20260509_150116_50717ec6-526c-4616-a7a5-bd8f9572833b.mp4"
     ],
     "videoDetails": [
       {
@@ -539,9 +539,9 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Landscaped residential parks and quiet walking trails for estate homeowners."
       }
     ],
-    "imagePath": "/experience/04.RESIDENTIAL AND LIVING/Low-Density Luxury Community/magnific_use-the-provided-image-on_2952088133.png",
+    "imagePath": "/experience/04-RESIDENTIAL-AND-LIVING/Low-Density-Luxury-Community/magnific_use-the-provided-image-on_2952088133.png",
     "galleryImages": [
-      "/experience/04.RESIDENTIAL AND LIVING/Low-Density Luxury Community/magnific_use-the-provided-image-on_2952088133.png"
+      "/experience/04-RESIDENTIAL-AND-LIVING/Low-Density-Luxury-Community/magnific_use-the-provided-image-on_2952088133.png"
     ],
     "description": "Private gated neighborhood of executive mansions and lush private gardens.",
     "voiceOverText": "NESTLED WITHIN QUIET BOTANICAL PARKS, THE LOW-DENSITY LUXURY COMMUNITY PROVIDES GATED SANCTUARY LIVING WITH CUSTOM EXECUTIVE MANSIONS AND MATURE PRIVATE GARDENS.",
@@ -553,11 +553,11 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "04. RESIDENTIAL AND LIVING",
     "x": 71,
     "y": 44,
-    "videoPath": "/experience/04.RESIDENTIAL AND LIVING/Mid-High Density Community/Animated/hf_20260509_131437_b05869ba-4a10-47fe-a413-68195dd8ab54.mp4",
+    "videoPath": "/experience/04-RESIDENTIAL-AND-LIVING/Mid-High-Density-Community/Animated/hf_20260509_131437_b05869ba-4a10-47fe-a413-68195dd8ab54.mp4",
     "videoPlaylist": [
-      "/experience/04.RESIDENTIAL AND LIVING/Mid-High Density Community/Animated/hf_20260509_131437_b05869ba-4a10-47fe-a413-68195dd8ab54.mp4",
-      "/experience/04.RESIDENTIAL AND LIVING/Mid-High Density Community/Animated/magnific_increase-qulity-to-4k_2951703846.mp4",
-      "/experience/04.RESIDENTIAL AND LIVING/Mid-High Density Community/Animated/magnific_smooth-orbital-movement-c_2951731003.mp4"
+      "/experience/04-RESIDENTIAL-AND-LIVING/Mid-High-Density-Community/Animated/hf_20260509_131437_b05869ba-4a10-47fe-a413-68195dd8ab54.mp4",
+      "/experience/04-RESIDENTIAL-AND-LIVING/Mid-High-Density-Community/Animated/magnific_increase-qulity-to-4k_2951703846.mp4",
+      "/experience/04-RESIDENTIAL-AND-LIVING/Mid-High-Density-Community/Animated/magnific_smooth-orbital-movement-c_2951731003.mp4"
     ],
     "videoDetails": [
       {
@@ -573,9 +573,9 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Smooth camera glide showcasing the architectural facade and private balconies."
       }
     ],
-    "imagePath": "/experience/04.RESIDENTIAL AND LIVING/Mid-High Density Community/magnific_use-the-provided-image-on_2951680488.png",
+    "imagePath": "/experience/04-RESIDENTIAL-AND-LIVING/Mid-High-Density-Community/magnific_use-the-provided-image-on_2951680488.png",
     "galleryImages": [
-      "/experience/04.RESIDENTIAL AND LIVING/Mid-High Density Community/magnific_use-the-provided-image-on_2951680488.png"
+      "/experience/04-RESIDENTIAL-AND-LIVING/Mid-High-Density-Community/magnific_use-the-provided-image-on_2951680488.png"
     ],
     "description": "Modern residential complexes with green courtyards and smart home infrastructure.",
     "voiceOverText": "DESIGNED FOR MODERN URBAN COMFORT, THE MID-HIGH DENSITY COMMUNITY BLENDS LIGHT-FILLED APARTMENT BLOCKS WITH SHADED GREEN COURTYARDS AND INTEGRATED SMART HOME INFRASTRUCTURE.",
@@ -587,10 +587,10 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "04. RESIDENTIAL AND LIVING",
     "x": 71,
     "y": 29,
-    "videoPath": "/experience/04.RESIDENTIAL AND LIVING/High-Density Apt Community/Animated/magnific_camera-orbit-around-the-r_2951629668.mp4",
+    "videoPath": "/experience/04-RESIDENTIAL-AND-LIVING/High-Density-Apt-Community/Animated/magnific_camera-orbit-around-the-r_2951629668.mp4",
     "videoPlaylist": [
-      "/experience/04.RESIDENTIAL AND LIVING/High-Density Apt Community/Animated/magnific_camera-orbit-around-the-r_2951629668.mp4",
-      "/experience/04.RESIDENTIAL AND LIVING/High-Density Apt Community/Animated/magnific_create-a-video_2951601374.mp4"
+      "/experience/04-RESIDENTIAL-AND-LIVING/High-Density-Apt-Community/Animated/magnific_camera-orbit-around-the-r_2951629668.mp4",
+      "/experience/04-RESIDENTIAL-AND-LIVING/High-Density-Apt-Community/Animated/magnific_create-a-video_2951601374.mp4"
     ],
     "videoDetails": [
       {
@@ -602,9 +602,9 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Top-floor fitness suites and resident lounges with city skyline vistas."
       }
     ],
-    "imagePath": "/experience/04.RESIDENTIAL AND LIVING/High-Density Apt Community/magnific_lock-all-materials-and-do_2951400089.png",
+    "imagePath": "/experience/04-RESIDENTIAL-AND-LIVING/High-Density-Apt-Community/magnific_lock-all-materials-and-do_2951400089.png",
     "galleryImages": [
-      "/experience/04.RESIDENTIAL AND LIVING/High-Density Apt Community/magnific_lock-all-materials-and-do_2951400089.png"
+      "/experience/04-RESIDENTIAL-AND-LIVING/High-Density-Apt-Community/magnific_lock-all-materials-and-do_2951400089.png"
     ],
     "description": "Contemporary high-rise apartments designed for media professionals and urban residents.",
     "voiceOverText": "RISING ALONG THE SKYLINE, THE HIGH-DENSITY APARTMENT COMMUNITY CATERS TO MEDIA PROFESSIONALS WITH CONTEMPORARY HIGH-RISE TOWERS, PANORAMIC SKY LOUNGES, AND URBAN AMENITIES.",
@@ -616,10 +616,10 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "04. RESIDENTIAL AND LIVING",
     "x": 54,
     "y": 38,
-    "videoPath": "/experience/04.RESIDENTIAL AND LIVING/Neighborhood Community Facility/Animated/hf_20260509_150239_c785643a-4fa3-4bed-9e38-2a7f48abfc95.mp4",
+    "videoPath": "/experience/04-RESIDENTIAL-AND-LIVING/Neighborhood-Community-Facility/Animated/hf_20260509_150239_c785643a-4fa3-4bed-9e38-2a7f48abfc95.mp4",
     "videoPlaylist": [
-      "/experience/04.RESIDENTIAL AND LIVING/Neighborhood Community Facility/Animated/hf_20260509_150239_c785643a-4fa3-4bed-9e38-2a7f48abfc95.mp4",
-      "/experience/04.RESIDENTIAL AND LIVING/Semi Aerials/Animated/hf_20260509_182000_44db7329-b525-4c24-b128-ef5bc4f7060b.mp4"
+      "/experience/04-RESIDENTIAL-AND-LIVING/Neighborhood-Community-Facility/Animated/hf_20260509_150239_c785643a-4fa3-4bed-9e38-2a7f48abfc95.mp4",
+      "/experience/04-RESIDENTIAL-AND-LIVING/Semi-Aerials/Animated/hf_20260509_182000_44db7329-b525-4c24-b128-ef5bc4f7060b.mp4"
     ],
     "videoDetails": [
       {
@@ -631,9 +631,9 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Multi-sport indoor courts and neighborhood swimming facility."
       }
     ],
-    "imagePath": "/experience/04.RESIDENTIAL AND LIVING/Neighborhood Community Facility/magnific_use-the-provided-image-on_2952174039.png",
+    "imagePath": "/experience/04-RESIDENTIAL-AND-LIVING/Neighborhood-Community-Facility/magnific_use-the-provided-image-on_2952174039.png",
     "galleryImages": [
-      "/experience/04.RESIDENTIAL AND LIVING/Neighborhood Community Facility/magnific_use-the-provided-image-on_2952174039.png"
+      "/experience/04-RESIDENTIAL-AND-LIVING/Neighborhood-Community-Facility/magnific_use-the-provided-image-on_2952174039.png"
     ],
     "description": "Central civic hub containing healthcare, sports complexes, and community centers.",
     "voiceOverText": "SERVING AS THE SOCIAL HEART FOR RESIDENTS, THE NEIGHBORHOOD COMMUNITY FACILITY BRINGS TOGETHER WELLNESS CLINICS, INDOOR SPORTS COMPLEXES, AND ACTIVE NEIGHBORHOOD GATHERING HUBS.",
@@ -645,11 +645,11 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "05. INFRA AND GENERAL SPACES",
     "x": 62,
     "y": 66,
-    "videoPath": "/experience/05.INFRA AND GENERAL SPACES/University/Animated/hf_20260509_163418_76c079ef-5d44-4ca2-90da-d913e1a22140 (1).mp4",
+    "videoPath": "/experience/05-INFRA-AND-GENERAL-SPACES/University/Animated/hf_20260509_163418_76c079ef-5d44-4ca2-90da-d913e1a22140 (1).mp4",
     "videoPlaylist": [
-      "/experience/05.INFRA AND GENERAL SPACES/University/Animated/hf_20260509_163418_76c079ef-5d44-4ca2-90da-d913e1a22140 (1).mp4",
-      "/experience/05.INFRA AND GENERAL SPACES/University/Animated/hf_20260509_164306_de0bcab3-1aaf-4ed4-9b56-8fc81a10ca10.mp4",
-      "/experience/05.INFRA AND GENERAL SPACES/University/Animated/hf_20260509_170714_f40742c7-7c66-418e-881d-16679a1b6b19.mp4"
+      "/experience/05-INFRA-AND-GENERAL-SPACES/University/Animated/hf_20260509_163418_76c079ef-5d44-4ca2-90da-d913e1a22140 (1).mp4",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/University/Animated/hf_20260509_164306_de0bcab3-1aaf-4ed4-9b56-8fc81a10ca10.mp4",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/University/Animated/hf_20260509_170714_f40742c7-7c66-418e-881d-16679a1b6b19.mp4"
     ],
     "videoDetails": [
       {
@@ -665,12 +665,12 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "High-tech laboratory wing housing real-time neural rendering clusters and advanced spatial media engineering suites for academic research."
       }
     ],
-    "imagePath": "/experience/05.INFRA AND GENERAL SPACES/University/hf_20260507_142720_178de512-10e3-48cc-aae7-0aa4bbcfc55d (1).jpg",
+    "imagePath": "/experience/05-INFRA-AND-GENERAL-SPACES/University/hf_20260507_142720_178de512-10e3-48cc-aae7-0aa4bbcfc55d (1).jpg",
     "galleryImages": [
-      "/experience/05.INFRA AND GENERAL SPACES/University/hf_20260507_142720_178de512-10e3-48cc-aae7-0aa4bbcfc55d (1).jpg",
-      "/experience/05.INFRA AND GENERAL SPACES/University/magnific__-human-accurate-physical-facial-details-and-remove__29916.jpg",
-      "/experience/05.INFRA AND GENERAL SPACES/University/magnific__50mm-standard-human-eye-intimate-__29917.jpg",
-      "/experience/05.INFRA AND GENERAL SPACES/University/magnific_add-small-villas-in-the-b_2952555037.jpg"
+      "/experience/05-INFRA-AND-GENERAL-SPACES/University/hf_20260507_142720_178de512-10e3-48cc-aae7-0aa4bbcfc55d (1).jpg",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/University/magnific__-human-accurate-physical-facial-details-and-remove__29916.jpg",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/University/magnific__50mm-standard-human-eye-intimate-__29917.jpg",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/University/magnific_add-small-villas-in-the-b_2952555037.jpg"
     ],
     "description": "World-class academic institution specializing in digital media, cinema, spatial computing, and AI engineering.",
     "voiceOverText": "POSITIONED AT THE CREATIVE HEART OF THE MASTERPLAN, MEDIA CITY UNIVERSITY NURTURES THE NEXT GENERATION OF CINEMATOGRAPHERS, AI ENGINEERS, AND SPATIAL MEDIA ARCHITECTS.",
@@ -682,12 +682,12 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "05. INFRA AND GENERAL SPACES",
     "x": 30,
     "y": 26,
-    "videoPath": "/experience/05.INFRA AND GENERAL SPACES/institute/Animated/hf_20260508_175000_57ede41d-7b9d-4900-b63f-7b4ee1c952f4 (1).mp4",
+    "videoPath": "/experience/05-INFRA-AND-GENERAL-SPACES/institute/Animated/hf_20260508_175000_57ede41d-7b9d-4900-b63f-7b4ee1c952f4 (1).mp4",
     "videoPlaylist": [
-      "/experience/05.INFRA AND GENERAL SPACES/institute/Animated/hf_20260508_175000_57ede41d-7b9d-4900-b63f-7b4ee1c952f4 (1).mp4",
-      "/experience/05.INFRA AND GENERAL SPACES/institute/Animated/hf_20260509_091016_4ce16602-9dae-4582-aedf-8eeda76e9ac8.mp4",
-      "/experience/05.INFRA AND GENERAL SPACES/institute/Animated/hf_20260509_100250_cd52f6ee-d5d8-413a-8ffd-6756ba615ff9.mp4",
-      "/experience/05.INFRA AND GENERAL SPACES/institute/Animated/hf_20260509_101738_130bf1a9-59c9-426a-809f-94df3e6ae65c.mp4"
+      "/experience/05-INFRA-AND-GENERAL-SPACES/institute/Animated/hf_20260508_175000_57ede41d-7b9d-4900-b63f-7b4ee1c952f4 (1).mp4",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/institute/Animated/hf_20260509_091016_4ce16602-9dae-4582-aedf-8eeda76e9ac8.mp4",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/institute/Animated/hf_20260509_100250_cd52f6ee-d5d8-413a-8ffd-6756ba615ff9.mp4",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/institute/Animated/hf_20260509_101738_130bf1a9-59c9-426a-809f-94df3e6ae65c.mp4"
     ],
     "videoDetails": [
       {
@@ -707,12 +707,12 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Outdoor testing promenade for autonomous camera drones, robotics capture, and mobile spatial recording rigs."
       }
     ],
-    "imagePath": "/experience/05.INFRA AND GENERAL SPACES/institute/magnific__enhance__70998.jpg",
+    "imagePath": "/experience/05-INFRA-AND-GENERAL-SPACES/institute/magnific__enhance__70998.jpg",
     "galleryImages": [
-      "/experience/05.INFRA AND GENERAL SPACES/institute/magnific__enhance__70998.jpg",
-      "/experience/05.INFRA AND GENERAL SPACES/institute/magnific__keep-the-image-100-in-the-reference-the-same-camer__71000.jpg",
-      "/experience/05.INFRA AND GENERAL SPACES/institute/magnific__keep-the-image-100-the-same-img1-same-camera-angel__70999.jpg",
-      "/experience/05.INFRA AND GENERAL SPACES/institute/magnific__use-the-provided-image-only-as-a-refrence-with-rep__49039.jpg"
+      "/experience/05-INFRA-AND-GENERAL-SPACES/institute/magnific__enhance__70998.jpg",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/institute/magnific__keep-the-image-100-in-the-reference-the-same-camer__71000.jpg",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/institute/magnific__keep-the-image-100-the-same-img1-same-camera-angel__70999.jpg",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/institute/magnific__use-the-provided-image-only-as-a-refrence-with-rep__49039.jpg"
     ],
     "description": "Advanced R&D center for emerging spatial computing, real-time VFX, and generative AI research.",
     "voiceOverText": "WELCOME TO THE TECH & RESEARCH INSTITUTE — AN ADVANCED SANCTUARY OF EMPOWERING GENERATIVE AI, REAL-TIME VIRTUAL PRODUCTION, AND SPATIAL COMPUTING.",
@@ -724,12 +724,12 @@ const DEFAULT_PINS: CustomPin[] = [
     "category": "05. INFRA AND GENERAL SPACES",
     "x": 78,
     "y": 81,
-    "videoPath": "/experience/05.INFRA AND GENERAL SPACES/Shared Assets/Animated/hf_20260509_094546_672add0e-4b06-4c9d-9a37-2024eb56952d.mp4",
+    "videoPath": "/experience/05-INFRA-AND-GENERAL-SPACES/Shared-Assets/Animated/hf_20260509_094546_672add0e-4b06-4c9d-9a37-2024eb56952d.mp4",
     "videoPlaylist": [
-      "/experience/05.INFRA AND GENERAL SPACES/Shared Assets/Animated/hf_20260509_094546_672add0e-4b06-4c9d-9a37-2024eb56952d.mp4",
-      "/experience/05.INFRA AND GENERAL SPACES/Shared Assets/Animated/hf_20260509_115545_6a12e129-d3c1-4ee6-bf54-16f0c38a4212.mp4",
-      "/experience/05.INFRA AND GENERAL SPACES/Shared Assets/Animated/hf_20260509_120406_c6b5ecb4-12b3-4d27-bab1-182f8b362774.mp4",
-      "/experience/05.INFRA AND GENERAL SPACES/Shared Assets/Animated/hf_20260509_121247_bca68581-c0bd-42e4-8a8b-d61033ea9755.mp4"
+      "/experience/05-INFRA-AND-GENERAL-SPACES/Shared-Assets/Animated/hf_20260509_094546_672add0e-4b06-4c9d-9a37-2024eb56952d.mp4",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/Shared-Assets/Animated/hf_20260509_115545_6a12e129-d3c1-4ee6-bf54-16f0c38a4212.mp4",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/Shared-Assets/Animated/hf_20260509_120406_c6b5ecb4-12b3-4d27-bab1-182f8b362774.mp4",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/Shared-Assets/Animated/hf_20260509_121247_bca68581-c0bd-42e4-8a8b-d61033ea9755.mp4"
     ],
     "videoDetails": [
       {
@@ -749,12 +749,12 @@ const DEFAULT_PINS: CustomPin[] = [
         "description": "Automated storage and transit terminal for rapid dispatch of filming equipment and production rigs."
       }
     ],
-    "imagePath": "/experience/05.INFRA AND GENERAL SPACES/Shared Assets/magnific__camera-drone-wide-angle-__50567.jpg",
+    "imagePath": "/experience/05-INFRA-AND-GENERAL-SPACES/Shared-Assets/magnific__camera-drone-wide-angle-__50567.jpg",
     "galleryImages": [
-      "/experience/05.INFRA AND GENERAL SPACES/Shared Assets/magnific__camera-drone-wide-angle-__50567.jpg",
-      "/experience/05.INFRA AND GENERAL SPACES/Shared Assets/magnific__keep-the-image-100-in-the-reference-the-same-camer__75870.jpg",
-      "/experience/05.INFRA AND GENERAL SPACES/Shared Assets/magnific__keep-the-image-100-in-the-reference-the-same-camer__75871.jpg",
-      "/experience/05.INFRA AND GENERAL SPACES/Shared Assets/magnific__replace-arabs-with-foreigners__59443.jpg"
+      "/experience/05-INFRA-AND-GENERAL-SPACES/Shared-Assets/magnific__camera-drone-wide-angle-__50567.jpg",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/Shared-Assets/magnific__keep-the-image-100-in-the-reference-the-same-camer__75870.jpg",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/Shared-Assets/magnific__keep-the-image-100-in-the-reference-the-same-camer__75871.jpg",
+      "/experience/05-INFRA-AND-GENERAL-SPACES/Shared-Assets/magnific__replace-arabs-with-foreigners__59443.jpg"
     ],
     "description": "Central smart grid hub, eco-water treatment, and high-speed fiber data backbone servicing Media City.",
     "voiceOverText": "POWERING THE ENTIRE ECOSYSTEM WITH ZERO-CARBON ENERGY, HIGH-SPEED FIBER DATA, AND CLOSED-LOOP RECYCLING, SHARED ASSETS KEEP MEDIA CITY RUNNING AT PEAK PERFORMANCE DAY AND NIGHT.",
@@ -1151,7 +1151,7 @@ export default function App() {
             muted 
             playsInline
             className="scene-bg-video animate-fade-in"
-            poster="/experience/01.INTRO/Post1.jpg"
+            poster="/experience/01-INTRO/Post1.jpg"
             onEnded={() => {
               if (scene === 'intro' && videoRef.current) {
                 videoRef.current.pause(); // Freeze video on final frame and await voiceover completion
@@ -1161,13 +1161,13 @@ export default function App() {
             <source 
               src={
                 scene === 'start' 
-                  ? "/experience/01.INTRO/Animated/DayAnimationOrbit.mp4" 
-                  : "/experience/01.INTRO/Animated/DayAnimationPanning.mp4"
+                  ? "/experience/01-INTRO/Animated/DayAnimationOrbit.mp4" 
+                  : "/experience/01-INTRO/Animated/DayAnimationPanning.mp4"
               } 
               type="video/mp4" 
             />
             <img 
-              src="/experience/01.INTRO/Post1.jpg" 
+              src="/experience/01-INTRO/Post1.jpg" 
               alt="Media City Masterplan Start" 
               className="scene-bg-image animate-zoom"
             />
@@ -1363,7 +1363,7 @@ export default function App() {
                     type="text"
                     className="pin-input-field"
                     value={pin.imagePath || ''}
-                    placeholder="/experience/02.MEDIA AND CREATION/..."
+                    placeholder="/experience/02-MEDIA-AND-CREATION/"
                     onChange={(e) => handleUpdatePin(pin.id, 'imagePath', e.target.value)}
                   />
                 </div>
