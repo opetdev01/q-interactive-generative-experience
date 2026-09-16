@@ -876,12 +876,19 @@ export default function App() {
   // Background Video Playback Controller across Scene transitions
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.load();
-      const playPromise = videoRef.current.play();
-      if (playPromise !== undefined) {
-        playPromise.catch((err) => {
-          console.warn('Background video autoplay waiting for user interaction', err);
-        });
+      if (scene === 'start' || scene === 'intro') {
+        videoRef.current.load();
+        const playPromise = videoRef.current.play();
+        if (playPromise !== undefined) {
+          playPromise.catch((err) => {
+            console.warn('Background video autoplay waiting for user interaction', err);
+          });
+        }
+      } else if (scene === 'masterplan') {
+        if (videoRef.current.duration) {
+          videoRef.current.currentTime = videoRef.current.duration;
+        }
+        videoRef.current.pause();
       }
     }
   }, [scene]);
@@ -962,6 +969,12 @@ export default function App() {
 
       const transitionToMasterplan = () => {
         audioEngine.restoreMusic();
+        if (videoRef.current) {
+          if (videoRef.current.duration) {
+            videoRef.current.currentTime = videoRef.current.duration;
+          }
+          videoRef.current.pause();
+        }
         setScene('masterplan');
       };
 
@@ -1168,24 +1181,24 @@ export default function App() {
         {(scene === 'start' || scene === 'intro' || scene === 'masterplan') && (
           <video 
             ref={videoRef}
-            key={scene === 'start' ? 'orbit-start' : scene === 'intro' ? 'panning-intro' : 'orbit-masterplan'}
-            autoPlay 
-            loop={scene === 'start' || scene === 'masterplan'}
+            key={scene === 'start' ? 'orbit-start' : 'panning-masterplan'}
+            autoPlay={scene === 'start' || scene === 'intro'} 
+            loop={scene === 'start'}
             muted 
             playsInline
             className="scene-bg-video animate-fade-in"
             poster="/experience/01-INTRO/Post1.jpg"
             onEnded={() => {
-              if (scene === 'intro' && videoRef.current) {
-                videoRef.current.pause(); // Freeze panning on final frame before switching to orbit
+              if (videoRef.current) {
+                videoRef.current.pause(); // Freeze panning on final frame for static masterplan map view
               }
             }}
           >
             <source 
               src={
-                scene === 'intro'
-                  ? "/experience/01-INTRO/Animated/DayAnimationPanning.mp4" 
-                  : "/experience/01-INTRO/Animated/DayAnimationOrbit.mp4"
+                scene === 'start' 
+                  ? "/experience/01-INTRO/Animated/DayAnimationOrbit.mp4" 
+                  : "/experience/01-INTRO/Animated/DayAnimationPanning.mp4"
               } 
               type="video/mp4" 
             />
@@ -1241,7 +1254,12 @@ export default function App() {
             className="skip-intro-btn animate-fade-in"
             onClick={() => {
               audioEngine.restoreMusic();
-              if (videoRef.current) videoRef.current.pause();
+              if (videoRef.current) {
+                if (videoRef.current.duration) {
+                  videoRef.current.currentTime = videoRef.current.duration;
+                }
+                videoRef.current.pause();
+              }
               if (vo1Ref.current) { vo1Ref.current.pause(); vo1Ref.current = null; }
               setScene('masterplan');
             }}
