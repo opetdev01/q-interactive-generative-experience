@@ -821,13 +821,9 @@ export default function App() {
     const video = e.currentTarget;
     if (playlistLength <= 1) return;
     
-    // Trigger 0.5s fade out 0.5s before video ends
-    if (video.duration && video.currentTime >= video.duration - 0.5 && !isVideoFading) {
+    // Trigger smooth fade 0.4s before video ends
+    if (video.duration && video.currentTime >= video.duration - 0.4 && !isVideoFading) {
       setIsVideoFading(true);
-      setTimeout(() => {
-        setCurrentVideoIdx((prev) => (prev + 1) % playlistLength);
-        setIsVideoFading(false);
-      }, 500);
     }
   };
 
@@ -865,19 +861,6 @@ export default function App() {
         if (pin.imagePath) {
           const img = new Image();
           img.src = encodeURI(pin.imagePath);
-        }
-        if (pin.galleryImages) {
-          pin.galleryImages.forEach((url) => {
-            const img = new Image();
-            img.src = encodeURI(url);
-          });
-        }
-        if (pin.videoPlaylist && pin.videoPlaylist.length > 0) {
-          pin.videoPlaylist.forEach((vUrl) => {
-            const v = document.createElement('video');
-            v.preload = 'auto';
-            v.src = encodeURI(vUrl);
-          });
         }
       });
     };
@@ -962,40 +945,49 @@ export default function App() {
         videoRef.current.play().catch(() => {});
       }
 
-      // Voiceover 1: "Welcome to Media City — an extraordinary sanctuary of innovation."
+      let timer: ReturnType<typeof setTimeout> | undefined;
+
+      const transitionToMasterplan = () => {
+        audioEngine.restoreMusic();
+        if (videoRef.current) {
+          videoRef.current.pause();
+        }
+        setScene('masterplan');
+      };
+
       if (!isMuted) {
         audioEngine.duckForVoiceover();
         const vo1 = new Audio('/assets/vo_intro_step1_v2.mp3');
-        vo1.volume = 0.40;
+        vo1.volume = 0.45;
         
-        // When Voiceover 1 finishes 100% -> Freeze video on last frame & reveal Masterplan pins!
         vo1.onended = () => {
-          audioEngine.restoreMusic();
-          if (videoRef.current) {
-            videoRef.current.pause();
-          }
-          setScene('masterplan');
+          transitionToMasterplan();
         };
 
-        vo1.play().catch(() => {});
+        vo1.onerror = () => {
+          transitionToMasterplan();
+        };
+
+        vo1.play().catch(() => {
+          // If browser blocks voiceover, fallback immediately after timer
+        });
         vo1Ref.current = vo1;
+
+        // Guaranteed safety fallback timer (4.5s)
+        timer = setTimeout(transitionToMasterplan, 4500);
       } else {
-        // Fallback timer if muted
-        const timer = setTimeout(() => {
-          if (videoRef.current) videoRef.current.pause();
-          setScene('masterplan');
-        }, 5000);
-        return () => clearTimeout(timer);
+        timer = setTimeout(transitionToMasterplan, 4000);
       }
 
       return () => {
+        if (timer) clearTimeout(timer);
         audioEngine.restoreMusic();
         if (vo1Ref.current) { vo1Ref.current.pause(); vo1Ref.current = null; }
       };
     }
   }, [scene, isMuted]);
 
-  // 2. MASTERPLAN SCENE: Pins Shown + (2s Delay) -> Voiceover 2 ("Discover creative commercial hubs...")
+  // 2. MASTERPLAN SCENE: Pins Shown + Voiceover 2 ("Discover creative commercial hubs...")
   useEffect(() => {
     if (scene === 'masterplan') {
       setShowMasterplanSubtitle(false);
@@ -1006,20 +998,24 @@ export default function App() {
         if (!isMuted) {
           audioEngine.duckForVoiceover();
           const vo2 = new Audio('/assets/vo_intro_step2_clean.mp3');
-          vo2.volume = 0.40;
+          vo2.volume = 0.45;
 
-          // When Voiceover 2 finishes 100% -> Restore music and fade out subtitle text
           vo2.onended = () => {
             audioEngine.restoreMusic();
             setTimeout(() => setShowMasterplanSubtitle(false), 800);
           };
 
+          vo2.onerror = () => {
+            audioEngine.restoreMusic();
+            setShowMasterplanSubtitle(false);
+          };
+
           vo2.play().catch(() => {});
           vo2Ref.current = vo2;
         } else {
-          setTimeout(() => setShowMasterplanSubtitle(false), 5000);
+          setTimeout(() => setShowMasterplanSubtitle(false), 4500);
         }
-      }, 500); // Exact 0.5-second delay after pins are revealed on screen
+      }, 400);
 
       return () => {
         clearTimeout(delayTimer);
@@ -1031,6 +1027,7 @@ export default function App() {
 
   const handleStartExperience = () => {
     audioEngine.init();
+    audioEngine.startMusic();
     setScene('intro');
   };
 
@@ -1230,6 +1227,37 @@ export default function App() {
               WELCOME TO MEDIA CITY — AN EXTRAORDINARY SANCTUARY OF INNOVATION.
             </div>
           </div>
+          <button 
+            className="skip-intro-btn animate-fade-in"
+            onClick={() => {
+              audioEngine.restoreMusic();
+              if (videoRef.current) videoRef.current.pause();
+              if (vo1Ref.current) { vo1Ref.current.pause(); vo1Ref.current = null; }
+              setScene('masterplan');
+            }}
+            style={{
+              position: 'absolute',
+              top: '80px',
+              right: '25px',
+              zIndex: 30,
+              background: 'rgba(0, 0, 0, 0.65)',
+              border: '1px solid var(--opet-cyan-accent)',
+              color: 'var(--opet-cyan-accent)',
+              padding: '8px 18px',
+              borderRadius: '20px',
+              cursor: 'pointer',
+              fontSize: '0.85rem',
+              fontWeight: 600,
+              letterSpacing: '0.05em',
+              backdropFilter: 'blur(10px)',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}
+          >
+            <span>Skip Intro</span>
+            <ChevronRight size={14} />
+          </button>
         </>
       )}
 

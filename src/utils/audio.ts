@@ -1,4 +1,4 @@
-// Ambient Audio Engine with Smooth Music Ducking for Seamless Voiceover Blending
+// Ambient Audio Engine with Smooth Music Ducking & Autoplay Unlock
 
 class AmbientAudioEngine {
   private audioElement: HTMLAudioElement | null = null;
@@ -9,26 +9,38 @@ class AmbientAudioEngine {
   private fadeInterval: number | null = null;
 
   public init() {
-    if (this.isInitialized) return;
+    if (this.isInitialized && this.audioElement) return;
     this.isInitialized = true;
 
     try {
       this.audioElement = new Audio('/assets/bgm.mp3');
       this.audioElement.loop = true;
       this.audioElement.volume = this.isMuted ? 0 : this.normalVolume;
+
+      // Enable unlock listener if browser blocks initial play
+      const unlockListener = () => {
+        if (this.audioElement && this.audioElement.paused && !this.isMuted) {
+          this.audioElement.play().catch(() => {});
+        }
+        window.removeEventListener('click', unlockListener);
+        window.removeEventListener('touchstart', unlockListener);
+      };
+
+      window.addEventListener('click', unlockListener, { once: true });
+      window.addEventListener('touchstart', unlockListener, { once: true });
     } catch (e) {
       console.warn('Audio element initialization failed', e);
     }
   }
 
   public startMusic() {
-    if (!this.isInitialized) {
+    if (!this.isInitialized || !this.audioElement) {
       this.init();
     }
     if (this.audioElement) {
       this.fadeToVolume(this.isMuted ? 0 : this.normalVolume, 600);
       this.audioElement.play().catch(err => {
-        console.warn('Autoplay prevented or interrupted', err);
+        console.warn('Autoplay waiting for user gesture', err);
       });
     }
   }
@@ -65,14 +77,12 @@ class AmbientAudioEngine {
     }, stepTime);
   }
 
-  // Smoothly blends background music down during voiceover (keeping a warm, audible background layer)
   public duckForVoiceover() {
     if (this.audioElement && !this.isMuted) {
       this.fadeToVolume(this.duckedVolume, 400);
     }
   }
 
-  // Smoothly restores background music volume after voiceover ends
   public restoreMusic() {
     if (this.audioElement && !this.isMuted) {
       this.fadeToVolume(this.normalVolume, 500);
