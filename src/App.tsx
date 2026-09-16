@@ -873,6 +873,19 @@ export default function App() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
+  // Background Video Playback Controller across Scene transitions
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.load();
+      const playPromise = videoRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise.catch((err) => {
+          console.warn('Background video autoplay waiting for user interaction', err);
+        });
+      }
+    }
+  }, [scene]);
+
   // Audio Sync with Scene State
   useEffect(() => {
     audioEngine.playSceneAmbience(scene);
@@ -949,9 +962,6 @@ export default function App() {
 
       const transitionToMasterplan = () => {
         audioEngine.restoreMusic();
-        if (videoRef.current) {
-          videoRef.current.pause();
-        }
         setScene('masterplan');
       };
 
@@ -1158,24 +1168,24 @@ export default function App() {
         {(scene === 'start' || scene === 'intro' || scene === 'masterplan') && (
           <video 
             ref={videoRef}
-            key={scene === 'start' ? 'orbit-start' : 'panning-intro'}
+            key={scene === 'start' ? 'orbit-start' : scene === 'intro' ? 'panning-intro' : 'orbit-masterplan'}
             autoPlay 
-            loop={scene === 'start'}
+            loop={scene === 'start' || scene === 'masterplan'}
             muted 
             playsInline
             className="scene-bg-video animate-fade-in"
             poster="/experience/01-INTRO/Post1.jpg"
             onEnded={() => {
               if (scene === 'intro' && videoRef.current) {
-                videoRef.current.pause(); // Freeze video on final frame and await voiceover completion
+                videoRef.current.pause(); // Freeze panning on final frame before switching to orbit
               }
             }}
           >
             <source 
               src={
-                scene === 'start' 
-                  ? "/experience/01-INTRO/Animated/DayAnimationOrbit.mp4" 
-                  : "/experience/01-INTRO/Animated/DayAnimationPanning.mp4"
+                scene === 'intro'
+                  ? "/experience/01-INTRO/Animated/DayAnimationPanning.mp4" 
+                  : "/experience/01-INTRO/Animated/DayAnimationOrbit.mp4"
               } 
               type="video/mp4" 
             />
